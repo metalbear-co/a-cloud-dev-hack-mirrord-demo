@@ -1,7 +1,9 @@
 name: Release cloud-dev-hack-blog-internal-api
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - image-builds
   workflow_dispatch:
 
 jobs:
